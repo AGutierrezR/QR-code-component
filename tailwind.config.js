@@ -7,7 +7,7 @@ module.exports = {
         body: ['Outfit', 'san-serif'],
       },
       fontSize: {
-        base: '15px',
+        base: ['15px', { letterSpacing: '0.2px', lineHeight: '1.2' }],
       },
       colors: {
         white: 'hsl(0, 0%, 100%)',
